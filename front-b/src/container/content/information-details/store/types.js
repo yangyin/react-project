@@ -1,0 +1,2 @@
+export const INFO_LIST = 'INFO_LIST';
+export const UPADTE_INFORMATION = 'UPADTE_INFORMATION';

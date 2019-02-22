@@ -1,0 +1,7 @@
+export const EDU_DETAILS = 'EDU_DETAILS';
+export const TOPIC_LIST = 'TOPIC_LIST';
+export const EDU_DETAILS_DELETE = 'EDU_DETAILS_DELETE';
+export const EDU_DETAILS_EDIT = 'EDU_DETAILS_EDIT';
+export const LIST_SINGLE = 'LIST_SINGLE';
+export const LIST_MULTIPLE = 'LIST_MULTIPLE';
+export const LIST_READING = 'LIST_READING';

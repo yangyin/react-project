@@ -1,0 +1,38 @@
+
+@import './../../style/common.less';
+.bg-comp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background: url(./../../images/bg.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    .bg-dailog {
+        width: 480px;
+        max-height: 480px;
+        padding: 50px;
+        background: @color-white;
+        margin-top: 100px;
+        border-radius: 5px;
+        // text-align: center;
+        font-weight: 900;
+        .title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                margin-right: 10px;
+            }
+        }
+        .title-label {
+            color: @color-grayest;
+            text-align: center;
+        }
+        .name {
+            color: @color-blue;
+            font-size: 16px;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,79 @@
+.dash-page {
+    .card-title-page {
+        display: flex;
+        justify-content: space-between;
+        p {
+            font-weight: 700;
+        }
+    }
+    .gridStyle {
+        height: 180px;
+        .title {
+            display:flex;
+            align-items:center;
+            margin-bottom:10px;
+            .anticon {
+                font-size: 24px;
+                color: #1890ff;
+            }
+            label {
+                color: #1890ff;
+                font-weight: 600;
+                font-size: 16px;
+            }
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom:10px;
+            :first-child {
+                display:flex;
+                align-items: center;
+                .anticon {
+                    font-size: 24px;
+                    color: #1890ff;
+                }
+                label {
+                    color: #1890ff;
+                    font-weight: 600;
+                    font-size: 16px;
+                }
+            }
+            :nth-child(2) {
+                color: red;
+            }
+            
+        }
+        .addr {
+            font-size: 12px;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+        }
+    }
+
+    .right-card {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        :first-child {
+            display: flex;
+            align-items: center;
+            color: #1890ff;
+            font-weight: 600;
+            .anticon {
+                font-size: 16px;
+                margin-right: 5px;
+            }
+        }
+        :nth-child(2) {
+            font-size: 12px;
+            color: #999;
+        }
+    }
+}

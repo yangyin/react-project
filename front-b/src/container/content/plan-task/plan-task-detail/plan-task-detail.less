@@ -1,0 +1,126 @@
+#plan-task-detail {
+    height: 100%;
+    overflow: hidden;
+    .content { 
+        display: flex;
+        height: 100%;
+        .cont-left {
+            width: 260px;
+            height: 630px;
+            background: #fff;
+            .demo-loadmore-list {
+                width: 100%;
+                height: 600px;
+                overflow: auto;
+                box-sizing: border-box;
+                .ant-list-item-meta {
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding: 0 10px;
+                    overflow: hidden;
+                    text-overflow:ellipsis;
+                    white-space:nowrap;
+                }
+                .active {
+                    background: #1890ff;
+                    .ant-list-item-meta-title {
+                        color: #fff;
+                    }
+                    .ant-list-item-meta-description {
+                        color: #fff;
+                    }
+                }
+            }
+            .pagination {
+                box-sizing: border-box;
+                height: 30px;
+                width: 100%;
+            }
+        }
+        .cont-right {
+            flex: 1;
+            margin-left: 5px;
+            background: #fff;
+            .top {
+                box-sizing: border-box;
+                border-bottom: 1px solid #e6e6e6;
+                .top-header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    box-sizing: border-box;
+                    padding: 10px;
+                    border-bottom: 1px solid #e6e6e6;
+                    .top-header-left {
+                        display: flex;
+                        align-items: center;
+                        .icon-top{
+                            font-size: 30px;
+                            background: #1890ff;
+                            border-radius: 50%;
+                            color: #fff;
+                            width: 40px;
+                            height: 40px;
+                            line-height: 40px;
+                            text-align: center;
+                            margin-right: 10px;
+                        }
+                        p{
+                            margin-bottom: 0;
+                            color:#1890ff;
+                        }
+                    }
+                }
+                .top-bottom {
+                    padding: 10px;
+                    Button {
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .content {
+                display: flex;
+                .left {
+                    flex:1;
+                    margin-right: 10px;
+                    box-sizing: border-box;
+                    padding: 10px;
+                    .left-card {
+                        margin-bottom: 10px;
+                        .card-content {
+                            display: flex;
+                            flex-wrap: wrap;
+                            p {
+                                width: 33.33%;
+                            }
+                        }
+                        .tab-item {
+                            display: flex;
+                            justify-content: space-between;
+                            box-sizing: border-box;
+                            padding: 0 10px;
+                        }
+                    }
+                }
+                .right {
+                    width: 480px;
+                    box-sizing: border-box;
+                    padding: 10px;
+                    .right-card {
+                        margin-bottom: 10px;
+                        .taskManager {
+                            display: flex;
+                            align-items: center;
+                        }
+                        .ant-progress-outer {
+                            width: 90%;
+                        }
+                        .ant-progress-text {
+                            width: 4em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

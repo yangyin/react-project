@@ -1,0 +1,7 @@
+export const SAFE_LIST = 'SAFE_LIST';
+export const SAFE_ERROR = 'SAFE_ERROR';
+export const SAFE_MARK = 'SAFE_MARK';
+export const PRO_SAFE_JURISDICTION = 'PRO_SAFE_JURISDICTION';
+export const SAFE_QUA_DETAIL='SAFE_QUA_DETAIL';
+export const SAFE_QUA_AUDIT='SAFE_QUA_AUDIT';
+export const SAFE_QUA_UPDATE='SAFE_QUA_UPDATE';

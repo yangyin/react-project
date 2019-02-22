@@ -1,0 +1,7 @@
+export const GET_LOG_ACTION = 'GET_LOG_ACTION';
+export const GET_LOG_SUCCESS = 'GET_LOG_SUCCESS';
+
+export const GET_LOG_TYPE_ACTION = 'GET_LOG_TYPE_ACTION';
+export const GET_LOG_TYPE_SUCCESS = 'GET_LOG_TYPE_SUCCESS';
+
+export const GET_LOG_JUR = 'GET_LOG_JUR';

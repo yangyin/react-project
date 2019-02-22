@@ -1,0 +1,63 @@
+@import  '../../../style/common.less';
+.user{
+    .search_filter{
+        padding-bottom: @width-24;
+        .searchInput{
+            text-align: right;
+        }
+        .test{
+            color:@color-red;
+        }
+    }
+}
+// 详情
+.account-cont{
+    .ant-card-head{
+        height: @height-58;
+        line-height:@height-58;
+        background-color: @color-graybg;
+        div{
+            height: 100%;
+            padding: 0;
+        }
+    }
+    .my-account{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li{
+            display: flex;
+            height: 52px;
+            line-height: 52px;
+            padding: 0 32px;
+            border-bottom: 1px solid @color-border;
+            div{
+                flex: 1;
+                color: #101010;
+            }
+            .info{
+                color:@color-green;
+            }
+            .change{
+                flex: 2;
+                color: @color-blue;
+                cursor: default;
+                span{
+                    cursor: pointer;
+                }    
+            }
+        }
+    }
+    .ant-avatar{
+        vertical-align: top;
+        margin: 2px 10px 0 0;
+    }
+    .ant-card-wider-padding .ant-card-body, .ant-card-body{
+        padding: 0;
+    }
+    
+}
+.ant-card-head-title{
+    padding: 10px 0;
+    font-weight: bold;
+}

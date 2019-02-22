@@ -1,0 +1,4 @@
+export const USER_INFO = 'USER_INFO';
+export const USER_INFO_SUCCESS = 'USER_INFO_SUCCESS';
+export const MENU_SUCCESS = 'MENU_SUCCESS';
+export const MENUS_ACTION = 'MENUS_ACTION';

@@ -1,0 +1,15 @@
+
+const USER_ERROR = 'USER_ERROR';
+const TEAM_LIST_ACTION = 'TEAM_LIST_ACTION';
+const TEAM_LIST = 'TEAM_LIST';
+const TEAM_DETAIL_ACTION = 'TEAM_DETAIL_ACTION';
+const TEAM_DETAIL = 'TEAM_DETAIL';
+const team_JUR='team_JUR';
+export {
+    USER_ERROR,
+    TEAM_LIST_ACTION,
+    TEAM_LIST,
+    TEAM_DETAIL_ACTION,
+    TEAM_DETAIL,
+    team_JUR,
+}

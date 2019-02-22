@@ -1,0 +1,28 @@
+@import '../../style/common.less';
+.collapse-comp {
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        .left{
+            flex: 1;
+        }
+        .right {
+            position: absolute;
+            top:0;
+            bottom: 0;
+            right: 0;
+            width: 50px;
+            font-size: 14px;
+            color: @color-blue;
+            cursor: pointer;
+        }
+    }
+    .hide {
+        display: none;
+    }
+    .block {
+        display: block;
+    }
+}
